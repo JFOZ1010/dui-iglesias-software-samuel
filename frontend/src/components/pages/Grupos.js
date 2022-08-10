@@ -236,6 +236,7 @@ export function Grupos(props) {
           <TextField disabled={data_array.disabled_name} error={data_array.error_band_0} onBlur={handleChange} id="outlined-required-9-0" label="Nombre" variant="outlined" />
         </div>
 
+
         <div className={classes.root}>
           <TextField disabled={data_array.disabled_all} error={data_array.error_band_1} onChange={handleChange} id="outlined-multiline-9-1" required={true} fullWidth={true} maxRows={3} multiline={true} label="Descripción" variant="outlined" />
         </div>
@@ -430,6 +431,7 @@ async function getJovenes(jovenL, setJovenL) {
   } catch (error) {
     console.log(error);
   }
+
 
 }
 
